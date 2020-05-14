@@ -7,7 +7,7 @@ module.exports = (file, secret) => {
   const key = crypto.scryptSync(secret, "salt", 24);
   const iv = Buffer.alloc(16, 0);
   const cipher = crypto.createCipheriv(algorithm, key, iv);
-  const data = gzipSync(fs.readFileSync(file, "utf8"));
+  const data = fs.readFileSync(file, "utf8");
 
   let encrypted = "";
 
