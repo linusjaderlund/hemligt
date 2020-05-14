@@ -1,0 +1,22 @@
+{
+  "name": "hemligt",
+  "version": "0.0.1",
+  "description": "A program for taking one file and ciphering it with given password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linus Jäderlund",
+  "license": "MIT",
+  "bin": {
+    "hemligt": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusjaderlund/hemligt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linusjaderlund/hemligt/issues"
+  },
+  "homepage": "https://github.com/linusjaderlund/hemligt#readme"
+}
